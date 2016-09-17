@@ -1,0 +1,327 @@
+#tabs ul{
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+	margin-left: 45px; 
+}
+
+#tabs,#tabs2,#tabs3,#tabs4,#tabs5 {
+	width: 100%;
+}
+
+#tabs li,#tabs2 li,#tabs3 li,#tabs4 li,#tabs5 li {
+	display: block;
+	float: left;
+	text-indent: 0;
+	padding: 0;
+	list-style-image: none !important;
+	margin: 0!important;
+	position: relative;
+	border: 0!important;
+	text-align: center;
+}
+
+#tabs li:first-child a{
+	border-radius: 4px 0px 0px 0px;
+	-moz-border-radius: 4px 0px 0px 0px;
+	-webkit-border-radius: 4px 0px 0px 0px;
+	-ms-border-radius: 4px 0px 0px 0px;
+	-o-border-radius: 4px 0px 0px 0px;
+	padding: 0px 15px 0px 25px;
+}
+
+#tabs li:last-child a{
+	border-radius: 0px 4px 0px 0px;
+	-moz-border-radius: 0px 4px 0px 0px;
+	-webkit-border-radius: 0px 4px 0px 0px;
+	-ms-border-radius: 0px 4px 0px 0px;
+	-o-border-radius: 0px 4px 0px 0px;
+	/*padding: 0px 15px 0px 30px;*/
+}
+
+#tabs li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 0px 15px 0px 35px ;
+	position: relative;
+	top: 0px;
+	font: normal 0.9em/2.7em 'Raleway', sans-serif;
+	color: #0a2038;
+	background: #f2f3f4;
+}
+
+#tabs li a:after {
+	content: '';
+	position: absolute;
+	top: -1px;
+	right: -20px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	/*border-width: 39px 0 0 20px;*/
+	border-width: 39px 0 0 21px;
+	border-color: transparent transparent transparent #f2f3f4;
+	z-index: 99;
+}
+
+#tabs_container {
+	width: 88%;
+	padding: 2% 3.15%;
+	background: #0a2038;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
+#tabs_container div {
+	width: 100%;
+	max-width: 800px;
+}
+
+#tabs li.ui-tabs-active a:after {
+	border-color: transparent transparent transparent #0a2038;
+}
+
+#tabs li.ui-tabs-active a {
+	background: #0a2038 !important;
+	color: #FFF !important;
+	border: none !important;
+}
+
+.tabulousclear {
+	display: block;
+	clear: both;
+}
+
+#tabs_container select, #tabs_container input, #tabs_container img{
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	margin-bottom: 0px;
+	border-radius: 3px;
+}
+#tabs_container select.search-speaciality{
+	width: 46%;	
+}
+
+#tabs_container select.search-location{
+	width: 33%;
+}
+
+#tabs_container select.search-name{
+	max-width: 640px;
+	width: 80%;
+}
+
+#tabs_container select{
+	position: relative;
+	text-align: left;
+	background: #fff;
+	color: #b7c6d7;
+	font: normal 0.9em/2.1em 'Raleway', sans-serif;	
+	border-radius: 2px 0px 0px 0px;
+	-moz-border-radius: 2px 0px 0px 0px;
+	-webkit-border-radius: 2px 0px 0px 0px;
+	-ms-border-radius: 2px 0px 0px 0px;
+	-o-border-radius: 2px 0px 0px 0px;
+	background: rgb(237,237,237); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VkZWRlZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZiZmNmZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlOGU4ZWEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(237,237,237,1) 0%, rgba(251,252,253,1) 50%, rgba(232,232,234,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(237,237,237,1)), color-stop(50%,rgba(251,252,253,1)), color-stop(100%,rgba(232,232,234,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(237,237,237,1) 0%,rgba(251,252,253,1) 50%,rgba(232,232,234,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(237,237,237,1) 0%,rgba(251,252,253,1) 50%,rgba(232,232,234,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(237,237,237,1) 0%,rgba(251,252,253,1) 50%,rgba(232,232,234,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(237,237,237,1) 0%,rgba(251,252,253,1) 50%,rgba(232,232,234,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#e8e8ea',GradientType=0 ); /* IE6-8 */
+
+}
+
+#tabs_container input{
+	background:url(/static/images/ic_search_white.png) no-repeat center #66adf9;
+	width: 64px;
+	height: 50px;
+	text-indent: -99999px;
+}
+
+#tabs li:last-child a:after {
+	border: none;
+}
+
+/*********** Search Page ***********/
+
+#search-page-search-panel #tabs li a:after, #search-page-search-panel #tabs li.ui-tabs-active a:after  {
+	top: 0px;
+}
+
+#search-page-search-panel #tabs_container{
+	width: 96%;
+	padding: 2%;
+}
+
+#search-page-search-panel #tabs li:first-child a{
+	padding: 0px 5px 0px 15px;
+}
+
+#search-page-search-panel #tabs li:last-child a{
+	padding: 0px 15px 0px 25px;
+}
+
+#search-page-search-panel #tabs li a {
+	padding: 0px 5px 0px 25px;
+}
+
+#search-page-search-panel #tabs_container select.search-speaciality{
+	width: 55%;
+}
+
+#search-page-search-panel #tabs_container select.search-location{
+	width: 33%;
+}
+
+#search-page-search-panel #tabs_container select.search-name{
+	width: 89%;
+}
+
+/*********** Doctor Profile Page ***********/
+
+#tabs-doctor-profile ul{
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
+
+
+#tabs-doctor-profile li {
+	display: block;
+	float: left;
+}
+
+#tabs-doctor-profile li:first-child a{
+	border-radius: 4px 0px 0px 4px;
+	-moz-border-radius: 4px 0px 0px 4px;
+	-webkit-border-radius: 4px 0px 0px 4px;
+	-ms-border-radius: 4px 0px 0px 4px;
+	-o-border-radius: 4px 0px 0px 4px;
+	padding: 0px 15px 0px 25px;
+}
+
+#tabs-doctor-profile li:last-child a{
+	border-radius: 0px 4px 4px 0px;
+	-moz-border-radius: 0px 4px 4px 0px;
+	-webkit-border-radius: 0px 4px 4px 0px;
+	-ms-border-radius: 0px 4px 4px 0px;
+	-o-border-radius: 0px 4px 4px 0px;
+	/*padding: 0px 15px 0px 30px;*/
+}
+
+/*#tabs-doctor-profile li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 0px 15px 0px 35px ;
+	position: relative;
+	top: 0px;
+	font: normal 1.5625em/2.7em 'Quicksand', sans-serif;
+	color: #c7fbff;
+	background: #13c9d7;
+}*/
+
+#tabs-doctor-profile li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 0px 15px 0px 35px ;
+	position: relative;
+	top: 1px;
+	font: normal 1.5625em/2.7em 'Quicksand', sans-serif;
+	color: #c7fbff;
+	background: #13c9d7;
+}
+
+/*#tabs-doctor-profile li a:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	right: -40px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 67px 0 0 40px;
+	border-color: transparent transparent transparent #13c9d7;
+	z-index: 99;
+}*/
+
+#tabs-doctor-profile li a:after {
+	content: '';
+	position: absolute;
+	top:1px;
+	right: -40px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 67px 0 0 40px;
+	border-color: transparent transparent transparent #13c9d7;
+	z-index: 99;
+}
+
+
+#tabs-doctor-profile li.ui-tabs-active a:before{
+	content: '';
+	position: absolute;
+	top: 67px;
+	left: 55%;
+	width: 19px;
+	height: 12px;
+	z-index: 99999;
+	background: url(/static/images/doctor-pro-tab-active-bg.png) no-repeat center center;
+	display: block;
+}
+
+#tabs-doctor-profile li.ui-tabs-active a:after {
+	border-color: transparent transparent transparent #062b45;	
+}
+
+#tabs-doctor-profile li.ui-tabs-active a {
+	background: #062b45;
+	border: none;
+}
+
+#tabs-doctor-profile li:last-child a:after {
+	border: none;
+}
+
+.tabs-doctor-pro-clinic{
+	background:url(/static/images/doctor-pro-tab-clinic.png) no-repeat center;
+	width: 40px;
+	height: 34px;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+	margin-bottom: 7px;
+}
+
+.tabs-doctor-pro-profile{
+	background:url(/static/images/doctor-pro-tab-profile.png) no-repeat center;
+	width: 35px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+	margin-bottom: 7px;
+}
+
+.tabs-doctor-pro-review{
+	background:url(/static/images/doctor-pro-tab-review.png) no-repeat center;
+	width: 40px;
+	height: 35px;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+

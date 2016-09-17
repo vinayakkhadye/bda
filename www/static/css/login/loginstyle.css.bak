@@ -1,0 +1,431 @@
+label
+{
+	margin-right: 20px;
+}
+.from_text4
+{
+	font-size: 18px;
+}
+.ui-datepicker-header{
+	background-color:#ffffff !important;
+}
+/*fullcalendar div alignment */
+#calendar {
+	margin: 40px 10px;
+	max-width: 900px;
+	
+}
+/* body .fc {
+		font-size: 0.85em;
+}*/
+body{
+	/*padding-top: 50px;*/
+	min-height:100px;
+}
+body .panel-body{
+	/*min-height:500px;*/
+}
+#calendar h2{
+	font-size: 1em;
+        font-weight:bold;
+        color: #337ab7;
+        margin-top: 10px;
+	
+}
+#hiddenField{
+		display: none;
+}
+.noTitleStuff .ui-dialog-titlebar {display:none}
+
+.ui-datepicker{
+	z-index: 9999 !important;
+}
+
+td.fc-axis, th.fc-axis{
+    width:60px !important
+}
+/*.fc-resizer{
+	cursor: pointer !important;
+	font-size: 0 !important;
+}
+.fc-event-container{
+	padding-left: 33px !important;
+		padding-top: 10px;
+}
+
+.fc-day-grid-event
+{
+		border-radius: 26px;
+		height: 50px;
+		width: 51%;
+}
+
+.fc-content{
+                margin-top: 12px;
+		text-align: center;
+}
+
+.fc-event {
+		font-size: 2.5em;
+		font-weight: bold;
+		line-height: 1.3;
+		color: #fff !important;
+		background-color: #229B96;
+		border-color: #229B96;
+		cursor: pointer;
+}
+
+.fc-title{
+	font-size: 0.8em;
+}
+*/
+/*	Loading overlay CSS		*/
+#overlay {
+		position: fixed;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		background: #222;
+		opacity: 0.7;
+		filter: alpha(opacity=70);
+		z-index: 999;
+}
+#loading {
+		margin: -6px 0 0;
+		opacity: 1;
+}
+.disabled {
+	 
+}
+
+#circle2 {
+		background-color: #fff;
+		background-position: center center;
+		border-radius: 50px;
+		color: #ffffff;
+		font-family: "Clarendon Lt BT";
+		font-size: 26px;
+		height: 92px;
+		left: 47%;
+		padding-top: 7px;
+		position: absolute;
+		text-align: center;
+		text-decoration: none;
+		top: 50%;
+		width: 92px;
+}
+.ui-autocomplete{
+	z-index: 99999;
+	list-style: outside none none;
+	max-width: inherit; /* 360px;*/
+}
+.mandatory{
+	color: red;
+}
+.from_text_filed {
+	padding-left: 3px;
+}
+.ui-datepicker {  
+		width: 216px;  
+		height: auto;  
+		margin: 5px auto 0;  
+		font: 9pt Arial, sans-serif;  
+		-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);  
+		-moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);  
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);  
+}  
+.grren{color:#1AA045;}
+.loader{left: 45%; top: 40%; display: none; scroll-behavior: inherit; width: 125px; height: 125px;overflow:hidden}
+.PA10{padding:10px;}
+.W50{max-width:50px;max-height:50px;}
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+ /* margin-bottom: 60px;*/
+}
+.footer {
+  /*position: absolute;*/
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  /*padding: 20px 15px 0;*/
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+.PB15{padding-bottom:15px;}
+.PT5{padding-top:5px;}
+.H1000{height:1000px;}
+.hide{display:none;}
+.show{display:block;}
+
+.imageBox, .clinic-imageBox {
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+.imageBox .thumbBox,.clinic-imageBox .thumbBox {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid rgb(102, 102, 102);
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    height: 152px;
+    left: 50%;
+    margin-left: -63px;
+    margin-top: -76px;
+    position: absolute;
+    top: 50%;
+    width: 126px;
+}
+.imageBox .thumbbigBox, .clinic-imageBox .thumbbigBox {
+		background: transparent none repeat scroll 0 0;
+		border: 1px solid rgb(102, 102, 102);
+		box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
+		height: 300px;
+		left: 25%;
+		margin-left: -63px;
+		margin-top: -154px;
+		position: absolute;
+		top: 50%;
+		width: 400px;
+}
+.imageBox .thumblandscapeBox,.clinic-imageBox .thumblandscapeBox {
+		background: transparent none repeat scroll 0 0;
+		border: 1px solid rgb(102, 102, 102);
+		box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
+		height: 300px;
+		left: 10%;
+		margin-left: -63px;
+		margin-top: -154px;
+		position: absolute;
+		top: 50%;
+		width: 800px;
+}
+.imageBox,.clinic-imageBox  {
+    cursor: move;
+}
+.btn-file {
+		position: relative;
+		overflow: hidden;
+}
+.btn-file input[type=file] {
+		position: absolute;
+		top: 0;
+		right: 0;
+		min-width: 100%;
+		min-height: 100%;
+		font-size: 100px;
+		text-align: right;
+		filter: alpha(opacity=0);
+		opacity: 0;
+		outline: none;
+		background: white;
+		cursor: inherit;
+		display: block;
+}
+.error_text {
+	background-color: #f9f2f4;
+	border-radius: 4px;
+	color: #c7254e;
+	font-size: 90%;
+	padding: 0px !important;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+.PT10{padding-top:10px;}
+.autocomplete-suggestions {
+    background: #FFF;
+    color: #444;
+    font-size: 16px;
+    overflow: auto;
+    -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, .64);
+    -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, .64);
+    box-shadow: 0 2px 4px #aaa
+}
+.autocomplete-suggestion {
+    padding: 2px 2px 5px;
+    margin: 0 4px;
+    white-space: nowrap;
+    overflow: hidden
+}
+.autocomplete-group,
+.autocomplete-no-suggestion {
+    padding: 2px 5px
+}
+.autocomplete-selected {
+    background: #66adf9;
+    box-shadow: 0 0 .5px .5px #eeeff0;
+    color: #fff;
+    font-weight: 400
+}
+.autocomplete-group strong,
+.autocomplete-suggestions strong {
+    font-weight: 700;
+    color: #000
+}
+.autocomplete-group strong {
+    font-size: 16px;
+    display: block;
+    border-bottom: 1px solid #000
+}
+.glyphicon.spinning {
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg); }
+    to { transform: scale(1) rotate(360deg); }
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+.ui-autocomplete-loading{
+	background: white url("/static/images/autocomplete-loading.gif") right center no-repeat;
+}
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    /* add padding to account for vertical scrollbar */
+    /*padding-right: 20px;*/
+}
+/* IE 6 doesn't support max-height
+ * we use height instead, but this forces the menu to always be this tall
+ */
+* html .ui-autocomplete {
+    height: 100px;
+}
+.ui-state-focus {
+background: none !important;
+background-color: #75A7FC !important;
+color: #FFFFFF !important;
+}
+.package-list{text-decoration:none !important;}
+/*.package-panel{height:650px;}*/
+.package-panel a{text-decoration:none;cursor:text}
+.imageBox .spinner, .clinic-imageBox .spinner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	line-height: 400px;
+	background: rgba(0,0,0,0.7);
+}
+.clinicimage{
+	cursor: pointer;
+}
+.remove-photo-x-btn{
+	cursor: pointer;
+}
+.clinicimgdisplay{
+	border: 1px solid #555;
+	opacity: 0.2;
+	margin-right: 20px;
+}
+.btngoogle{
+	/*background: #4589F7;
+	background-image: -webkit-linear-gradient(top, #4589F7, #4589F7);
+	background-image: -moz-linear-gradient(top, #4589F7, #4589F7);
+	background-image: -ms-linear-gradient(top, #4589F7, #4589F7);
+	background-image: -o-linear-gradient(top, #4589F7, #4589F7);
+	background-image: linear-gradient(to bottom, #4589F7, #4589F7);
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 14px;*/
+	left: 15%;
+	/*padding: 2px 10px;*/
+	position: relative;
+	/*text-decoration: none;*/
+	top: 50px;
+	z-index: 20;
+}
+
+
+*::after, *::before {
+    box-sizing: border-box;
+}
+*::after, *::before {
+    box-sizing: border-box;
+}
+.panel-profile-img {
+	border: 3px solid #fff;
+	border-radius: 100%;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	margin-bottom: 5px;
+	margin-top: -70px;
+	max-width: 90px;
+}
+.panel-profile .panel-heading{
+	 background-size: cover;
+    height: 60px;
+}
+.services-panel{
+	background-color: #0a534a;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 1.5em;
+	padding: 5px;
+	margin-bottom:3px;
+	margin-top:3px;
+}
+.panel-services{
+	height:200px;
+}
+.panel-consultation-note{
+	height:130px;
+}
+
+.procedure-panel{
+	margin-top:3px;
+	line-height: 1.5em;
+	padding: 10px;
+	word-spacing: 2px;
+	border-top:1px solid #dff0d8;
+}
+.PT20{padding-top:20px;}
+.W60{width:60px !important;}
+.MB15{margin-bottom:15px;}
+.wk-dt-width {
+    width:125px;
+}
+.PT15{padding-top:15px;}
+.H550{min-height:550px;}
+.P10{padding:10px;}
+
+.remove-photo{position: relative; top: -27px; left: -38px;color:red;cursor:pointer}
+.H120{height:120px;}
+.MH120{min-height:120px;}
+.H175{height:175px;}
+.H150{height:150px !important;}

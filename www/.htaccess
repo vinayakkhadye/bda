@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|static|zzz|media|robots|assets|uploads|\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+Options -Indexes
+php_value post_max_size 20M
+php_value upload_max_filesize 20M

@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /zzz
+Disallow: /bdabdabda
+Disallow: /me
+
+Sitemap: https://www.bookdrappointment.com/sitemap.xml

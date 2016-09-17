@@ -1,0 +1,469 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Book Doctor Appointment</title>
+    <link rel="stylesheet" type="text/css" href="css/Default-css.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700|Raleway:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/tabulous.css">
+     <!-- Owl slider -->
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/slicknav.css">
+</head>
+
+<body>
+	<div id="header">
+    	<div class="top-bar">
+        	<div class="container cf">
+            	<div id="mobile-nav"></div>
+            	<ul class="one-half margin-bottom-0 need-help-contact">
+                	<li>
+                    	<a href="#">Need help Booking?</a>
+                    </li>
+                    <li>
+                    	<span class="call-img"></span>
+                    </li>
+                    <li>
+                    	(022) 49426426
+                    </li>    
+                </ul>
+                <div class="user-login-panel">
+                	<div class="float-right">
+                    	<div tabindex="0" class="select-city-panel">
+                        	<span class="select-city">
+                            	Select City 
+                            </span>
+                            <ul class="select-city-content">
+                                <li><a onClick="alert('click 1')">Mumbai</a></li>
+                                <li><a onClick="alert('click 2')">Pune</a></li>
+                                <li><a onClick="alert('click 3')">more Cities</a></li>
+                            </ul>
+                        </div>
+                        <div tabindex="0" class="user-name-panel">
+                        	<span class="user-image">
+                            	<img src="img/user_image.jpg">
+                            </span>
+                            <span class="user-name">
+                            	Vinayak Khade
+                            </span>
+                            <ul class="user-name-content">
+                                <li><a onClick="alert('click 1')" class="user-profile-icon">Profile</a></li>
+                                <li><a onClick="alert('click 2')" class="user-logout-icon">logout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo-panel">
+            <div class="container cf">
+                <div class="one-half margin-bottom-0">
+                    <a href="#">
+                    	<h1 class="logo"></h1>
+                    </a>
+                </div>
+                <div class="one-half last margin-bottom-0 mobile-view-hide">
+                    <div class="float-right">
+                        <ul class="nav" id="menu">
+                            <a href="#">
+                                <li>
+                                    <span class="nav-image nav-home-image"></span>
+                                    <span class="nav-title">Home</span>
+                                    <span class="nav-tagline">Find Best Doctors</span>
+                                </li>
+                            </a>    
+                            <a href="#">
+                                <li>
+                                    <span class="nav-image nav-patient-image"></span>
+                                    <span class="nav-title">Patient</span>
+                                    <span class="nav-tagline">Unlimited Benefits</span>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <span class="nav-image nav-doctor-image"></span>
+                                    <span class="nav-title">Doctor</span>
+                                    <span class="nav-tagline">Login</span>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    	</div>                
+    </div>
+    <div id="banner">
+    	<div class="container">
+        	<div class="doctor-image">
+            	<img src="img/search-panel-bg.png" alt="Doctor Image"> 
+            </div>
+       	  	<ul class="appointment-steps">
+                <li class="appointment-step-1">
+                    <span>STEP 1</span>
+                    Find a Doctor
+                </li>
+                <li class="appointment-step-2">
+                    <span>STEP 2</span>
+                    Select Date & Time
+                </li>
+                <li class="appointment-step-3">
+                    <span>STEP 3</span>
+                    Book Appointment
+                </li>
+                <li class="appointment-step-4">
+                    <span>STEP 4</span>
+                    Consult Doctor
+                </li>
+            </ul>
+            <div id="tabs">
+                <ul class="cf">
+                    <li><a href="#tabs-1" title=""><span class="mobile-view-hide">Search by Speciality</span><span class="mobile-view-show">Speciality</span></a></li>
+                    <li><a href="#tabs-2" title=""><span class="mobile-view-hide">Search by Name</span><span class="mobile-view-show">Doctor</span></a></li>
+                    <li><a href="#tabs-3" title=""><span class="mobile-view-hide">Search by Clinic / Hospital Name</span><span class="mobile-view-show">Clinic</span></a></li>
+                </ul>
+            	<div id="tabs_container">
+                    <div id="tabs-1">
+                    
+						<input name="" type="text" class="search-speaciality">
+						
+						<input name="" type="text" class="search-location">
+
+                    	<!--<select class="search-speaciality">
+                            <option value="Dentist">Dentist</option>
+                            <option value="Pediatrician">Pediatrician</option>
+                            <option value="Gynaecologist">Gynaecologist</option>
+                        </select>
+                        <select class="search-location">
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Nashik">Nashik</option>
+                            <option value="Dhule">Dhule</option>
+                        </select>-->
+
+                        <input type="submit">
+                        <img src="img/free-text.jpg" alt="Free Text"> 
+                    </div>
+                    <div id="tabs-2">
+							<input name="" type="text" class="search-name">
+                           <!--<select class="search-name">
+                            <option value="Dentist">Dentist</option>
+                            <option value="Pediatrician">Pediatrician</option>
+                            <option value="Gynaecologist">Gynaecologist</option>
+						   </select>-->
+                        <input type="submit">
+                        <img src="img/free-text.jpg" alt="Free Text"> 
+                    </div>
+            		<div id="tabs-3">
+						<input name="" type="text" class="search-name">
+                    	<!--<select class="search-name">
+                            <option value="Dentist">Dentist</option>
+                            <option value="Pediatrician">Pediatrician</option>
+                            <option value="Gynaecologist">Gynaecologist</option>
+                        </select>-->
+                        <input type="submit">
+                        <img src="img/free-text.jpg" alt="Free Text"> 
+            		</div>
+            	</div><!--End tabs container-->
+          	</div><!--End tabs-->
+            <div class="thumb-slider"> 
+				<div id="thumb-slider-owl-demo" class="owl-carousel">
+                	<div class="item">
+						<span class="thumb-slider-001"></span>
+                        <p>Consulting Physician</p>
+                    </div>
+                    <div class="item">
+						<span class="thumb-slider-002"></span>
+                        <p>Consulting Physician</p>
+                    </div>
+                    <div class="item">
+                    	<span class="thumb-slider-003"></span>
+                        <p>Consulting Physician</p>
+					</div>
+                    <div class="item">
+                    	<span class="thumb-slider-004"></span>
+                        <p>Consulting Physician</p>
+                    </div>
+                    <div class="item">
+                    	<span class="thumb-slider-005"></span>
+                        <p>Consulting Physician</p>
+                    </div>
+                    <div class="item">
+                    	<span class="thumb-slider-006"></span>		
+                        <p>Consulting Physician</p>
+                    </div>
+                    <div class="item">
+                    	<span class="thumb-slider-007"></span>			
+                        <p>Consulting Physician</p>
+                    </div>
+                    <div class="item">
+						<span class="thumb-slider-008"></span>
+                        <p>Consulting Physician</p>
+                    </div>
+                    <div class="item">
+						<span class="thumb-slider-009"></span>
+                        <p>Consulting Physician</p>
+                    </div>
+                    <div class="item">
+                    	<span class="thumb-slider-010"></span>
+                        <p>Consulting Physician</p>
+					</div>
+                    <div class="item">
+                    	<span class="thumb-slider-011"></span>
+                        <p>Consulting Physician</p>
+                    </div>
+                    <div class="item">
+                    	<span class="thumb-slider-012"></span>
+                        <p>Consulting Physician</p>
+                    </div>
+                    <div class="item">
+                    	<span class="thumb-slider-013"></span>		
+                        <p>Consulting Physician</p>
+                    </div>
+                    <div class="item">
+                    	<span class="thumb-slider-014"></span>			
+                        <p>Consulting Physician</p>
+                    </div>
+                    <div class="item">
+                    	<span class="thumb-slider-015"></span>			
+                        <p>Consulting Physician</p>
+                    </div>
+                    <div class="item">
+                    	<span class="thumb-slider-016"></span>			
+                        <p>Consulting Physician</p>
+                    </div>
+				</div>
+				<div class="thumbSliderCustomNavigation">
+					<a class="btn prev-thumb-slider">Previous</a>
+					<a class="btn next-thumb-slider">Next</a>
+				</div>
+			</div>
+            <div class="banner-play-store-image cf">
+            	<a href="index.html#Sales"><img src="img/banner-play-store-image.png" alt="Icon Google Play Store" class="item"></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+    	<div class="app-display-panel">
+        	<div  id="Sales" class="container">
+            	<div class="one-half margin-bottom-0">
+                	<h2>Smart Mobile App for Doctors</h2>
+                    <h3>Digitalize your Practice</h3>
+                    <div class="mobile-view-show">
+                    	<div class="one-half last">
+                            <img src="img/app-for-doctor-image.jpg" alt="Google Play Store BDA App for Doctor">
+                        </div>
+                    	<div class="play-store-image cf">
+                            <a href="https://play.google.com/store?hl=en">
+                            <img src="img/play-store-image-black.jpg" class="float-right" alt="Google Play Store BDA App Icon">
+                            </a>
+                        </div>
+                    </div>
+                    <p>Manage your Appointments easily</p>
+                    <p>Edit & Update your	Online Profile</p>
+	                <p>Maintain your Patient Database</p>
+                    <p>Send Appointment Reminder  SMS to Patients</p>
+                    <div class="play-store-image mobile-view-hide cf">
+                    	<a href="https://play.google.com/store?hl=en">
+                    	<img src="img/play-store-image-black.jpg" class="float-right" alt="Google Play Store BDA App Icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="one-half last margin-bottom-0 mobile-view-hide">
+                	<img src="img/app-for-doctor-image.jpg" alt="Google Play Store BDA App">
+                </div>
+                <div class="cf"></div>
+            </div>
+        </div>
+        <div class="app-display-panel">
+        	<div class="container">
+            	<div class="one-half margin-bottom-0 mobile-view-hide">
+                	<img src="img/app-for-patient-image.jpg" alt="Google Play Store BDA App for Patient">
+                </div>
+            	<div class="one-half last margin-bottom-0">
+                	<h2>Smart Mobile App for Patients</h2>
+                    <h3>Best Doctors at your Fingertips</h3>
+                    <div class="one-half mobile-view-show">
+                        <img src="img/app-for-patient-image.jpg" alt="Google Play Store BDA App for Patient">
+                    </div>
+                    <p>Find a Trusted Doctor, nearby</p>
+                    <p>Book Doctor Appointment instantly, Online</p>
+	                <p>Select Doctor based on Happy Patient Reviews </p>
+                    <p>Manage PHR (Personal Health Records) Online & Access from anywhere</p>
+                </div>
+                <div class="cf"></div>
+            </div>
+        </div>
+        <div class="doctors-display-panel">
+        	<h1>Welcome Doctors!</h1>
+            <div class="doctor-profile-display-panel"> 
+				<div id="doctor-profile-display-slider" class="owl-carousel">
+                	<div class="item">
+						<img src="img/doctor-profile-image.jpg" title="" alt="Doctor Profile Photo" />
+                        <p class="doctor-name">Dr. Ritu Sharma</p>
+                        <p class="doctor-degree">MBBS, MD, FRCOG (London)</p>
+                        <p class="doctor-speciality">Gynaecologist</p>
+                        <p class="doctor-location">Mumbai</p>
+                    </div>
+                    <div class="item">
+						<img src="img/doctor-profile-image.jpg" title="" alt="Doctor Profile Photo" />
+                        <p class="doctor-name">Dr. Ritu Sharma</p>
+                        <p class="doctor-degree">MBBS, MD, FRCOG (London)</p>
+                        <p class="doctor-speciality">Gynaecologist</p>
+                        <p class="doctor-location">Mumbai</p>
+                    </div>
+                    <div class="item">
+						<img src="img/doctor-profile-image.jpg" title="" alt="Doctor Profile Photo" />
+                        <p class="doctor-name">Dr. Ritu Sharma</p>
+                        <p class="doctor-degree">MBBS, MD, FRCOG (London)</p>
+                        <p class="doctor-speciality">Gynaecologist</p>
+                        <p class="doctor-location">Mumbai</p>
+                    </div>
+                    <div class="item">
+						<img src="img/doctor-profile-image.jpg" title="" alt="Doctor Profile Photo" />
+                        <p class="doctor-name">Dr. Ritu Sharma</p>
+                        <p class="doctor-degree">MBBS, MD, FRCOG (London)</p>
+                        <p class="doctor-speciality">Gynaecologist</p>
+                        <p class="doctor-location">Mumbai</p>
+                    </div>
+                    <div class="item">
+						<img src="img/doctor-profile-image.jpg" title="" alt="Doctor Profile Photo" />
+                        <p class="doctor-name">Dr. Ritu Sharma</p>
+                        <p class="doctor-degree">MBBS, MD, FRCOG (London)</p>
+                        <p class="doctor-speciality">Gynaecologist</p>
+                        <p class="doctor-location">Mumbai</p>
+                    </div>
+                    <div class="item">
+						<img src="img/doctor-profile-image.jpg" title="" alt="Doctor Profile Photo"/>
+                        <p class="doctor-name">Dr. Ritu Sharma</p>
+                        <p class="doctor-degree">MBBS, MD, FRCOG (London)</p>
+                        <p class="doctor-speciality">Gynaecologist</p>
+                        <p class="doctor-location">Mumbai</p>
+                    </div>
+                    <div class="item">
+						<img src="img/doctor-profile-image.jpg" title="" alt="Doctor Profile Photo"/>
+                        <p class="doctor-name">Dr. Ritu Sharma</p>
+                        <p class="doctor-degree">MBBS, MD, FRCOG (London)</p>
+                        <p class="doctor-speciality">Gynaecologist</p>
+                        <p class="doctor-location">Mumbai</p>
+                    </div>
+                    <div class="item">
+						<img src="img/doctor-profile-image.jpg" title="" alt="Doctor Profile Photo" />
+                        <p class="doctor-name">Dr. Ritu Sharma</p>
+                        <p class="doctor-degree">MBBS, MD, FRCOG (London)</p>
+                        <p class="doctor-speciality">Gynaecologist</p>
+                        <p class="doctor-location">Mumbai</p>
+                    </div>
+                </div>
+				<div class="doctorDisplaySliderCustomNavigation">
+					<a class="btn prev-doctor-profile-display-slider">Previous</a>
+					<a class="btn next-doctor-profile-display-slider">Next</a>
+				</div>
+			</div>
+        </div>
+        <div class="discription-panel">
+        	<div class="container">
+            	<p>
+                	"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+    	<div class="container cf">
+        	<ul class="one-fourth">
+            	<h4>BDA</h4>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Patient FAQ</a></li>
+                <li><a href="#">Doctor FAQ</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Term and Conditions</a></li>
+            </ul>
+            <ul class="one-fourth">
+            	<h4>Find Doctor By</h4>
+                <li><a href="#">Speciality</a></li>
+                <li><a href="#">Doctor Name</a></li>
+                <li><a href="#">Clinic / Hospital Name</a></li>
+            </ul>
+            <ul class="one-fourth">
+            	<h4>Get in Touch</h4>
+                <li>022 - 25361097</li>
+                <li><a href="mailto:support@bookdrappointment.com" target="_top">support@bookdrappointment.com</a></li>
+            </ul>
+            <ul class="one-fourth last follow-us">
+            	<h4>Follow Us</h4>
+                <a href="#"><img src="img/ic_footer_social.png" alt="Facebook Icon"></a>
+                <a href="#"><img src="img/ic_footer_googlePlus.png" alt="GooglePlus Icon"></a>
+               	<a href="#"><img src="img/ic_footer_twitter.png" alt="Twitter Icon"></a>
+                <a href="#"><img src="img/ic_footer_linkedin.png"  alt="Linkedin Icon"></a>
+                <a href="#"><img src="img/ic_footer_pinrest.png" alt="Pinrest Icon"></a>
+                <a href="#"><img src="img/ic_footer_youtube.png" alt="Youtube Icon"></a>
+            </ul>
+        </div>
+        <div class="bottom-footer">
+        	&copy; 2015 BookdrAppointment.com, 	All rights reserved.
+        </div>
+        				
+        
+    </div>    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+	<script src="js/modernizr.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+	<script src="js/owl.carousel.js"></script>
+    <script type="text/javascript">
+		var owl = $("#thumb-slider-owl-demo");
+
+		  owl.owlCarousel({
+	
+		  items : 7, //10 items above 1000px browser width
+		  itemsDesktop : [1000,7], //5 items between 1000px and 901px
+		  itemsDesktopSmall : [900,5], // 3 items betweem 900px and 601px
+		  itemsTablet: [600,4], //2 items between 600 and 0;
+		  itemsMobile : [480,2], // itemsMobile disabled - inherit from itemsTablet option
+		  slideSpeed: 1000,
+		  autoPlay: true
+		  });
+	
+		  // Custom Navigation Events
+		  $(".next-thumb-slider").click(function(){
+			owl.trigger('owl.next');
+		  })
+		  $(".prev-thumb-slider").click(function(){
+			owl.trigger('owl.prev');
+		 })
+		 
+		 var owl1 = $("#doctor-profile-display-slider");
+
+		  owl1.owlCarousel({
+	
+		  items : 4, //10 items above 1000px browser width
+		  itemsDesktop : [1024,3], //5 items between 1000px and 901px
+		  itemsDesktopSmall : [900,2], // 3 items betweem 900px and 601px
+		  itemsTablet: [600,2], //2 items between 600 and 0;
+		  itemsMobile : [480,1], // itemsMobile disabled - inherit from itemsTablet option
+		  slideSpeed: 1000,
+		  autoPlay: true
+		  });
+	
+		  // Custom Navigation Events
+		  $(".next-doctor-profile-display-slider").click(function(){
+			owl1.trigger('owl.next');
+		  })
+		  $(".prev-doctor-profile-display-slider").click(function(){
+			owl1.trigger('owl.prev');
+		 })
+		 $(function() {
+			$( "#tabs" ).tabs();
+		  });
+		  $(document).ready(function(){
+				$('#menu').slicknav();
+			});
+	</script>
+   
+   
+</body>
+</html>

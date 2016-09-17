@@ -1,0 +1,944 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Search Doctor | Book Doctor Appointment</title>
+    <link rel="stylesheet" type="text/css" href="css/Default-css.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700|Raleway:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/font-styles.css">
+    <link rel="stylesheet" type="text/css" href="css/tabulous.css">
+     <!-- Owl slider -->
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/slicknav.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {
+           filter: none;
+        }
+      </style>
+    <![endif]-->
+</head>
+
+<body>
+	<div id="header">
+    	<div class="top-bar">
+        	<div class="container cf">
+            	<div id="mobile-nav"></div>
+            	<ul class="one-half margin-bottom-0 need-help-contact">
+                	<li>
+                    	<a href="#">Need help Booking?</a>
+                    </li>
+                    <li>
+                    	<span class="call-img"></span>
+                    </li>
+                    <li>
+                    	(022) 49426426
+                    </li>    
+                </ul>
+                <div class="user-login-panel">
+                	<div class="float-right">
+                    	<div tabindex="0" class="select-city-panel">
+                        	<span class="select-city">
+                            	Select City 
+                            </span>
+                            <ul class="select-city-content">
+                                <li><a onclick="alert('click 1')">Mumbai</a></li>
+                                <li><a onclick="alert('click 2')">Pune</a></li>
+                                <li><a onclick="alert('click 3')">more Cities</a></li>
+                            </ul>
+                        </div>
+                        <div tabindex="0" class="user-name-panel">
+                        	<span class="user-image">
+                            	<img src="img/user_image.jpg">
+                            </span>
+                            <span class="user-name">
+                            	Vinayak Khade
+                            </span>
+                            <ul class="user-name-content">
+                                <li><a onClick="alert('click 1')" class="user-profile-icon">Profile</a></li>
+                                <li><a onClick="alert('click 2')" class="user-logout-icon">logout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo-panel">
+            <div class="container cf">
+                <div class="one-half margin-bottom-0">
+                    <a href="#">
+                    	<h1 class="logo"></h1>
+                    </a>
+                </div>
+                <div class="one-half last margin-bottom-0 mobile-view-hide">
+                    <div class="float-right">
+                        <ul class="nav" id="menu">
+                            <a href="#">
+                                <li>
+                                    <span class="nav-image nav-home-image"></span>
+                                    <span class="nav-title">Home</span>
+                                    <span class="nav-tagline">Find Best Doctors</span>
+                                </li>
+                            </a>    
+                            <a href="#">
+                                <li>
+                                    <span class="nav-image nav-patient-image"></span>
+                                    <span class="nav-title">Patient</span>
+                                    <span class="nav-tagline">Unlimited Benefits</span>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <span class="nav-image nav-doctor-image"></span>
+                                    <span class="nav-title">Doctor</span>
+                                    <span class="nav-tagline">Login</span>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    	</div>                
+    </div>
+    <div id="search-page-search-panel">
+    	<div class="container cf">
+        	<div class="two-third margin-bottom-0">
+                <div id="tabs">
+                    <ul class="cf">
+                        <li><a href="#tabs-1" title=""><span class="mobile-view-hide">Search by Speciality</span><span class="mobile-view-show">Speciality</span></a></li>
+                        <li><a href="#tabs-2" title=""><span class="mobile-view-hide">Search by Name</span><span class="mobile-view-show">Doctor</span></a></li>
+                        <li><a href="#tabs-3" title=""><span class="mobile-view-hide">Search by Clinic / Hospital Name</span><span class="mobile-view-show">Clinic</span></a></li>
+                    </ul>
+                    <div id="tabs_container">
+                        <div id="tabs-1">
+                    
+						<input name="" type="text" class="search-speaciality">
+						
+						<input name="" type="text" class="search-location">
+
+                    	<!--<select class="search-speaciality">
+                            <option value="Dentist">Dentist</option>
+                            <option value="Pediatrician">Pediatrician</option>
+                            <option value="Gynaecologist">Gynaecologist</option>
+                        </select>
+                        <select class="search-location">
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Nashik">Nashik</option>
+                            <option value="Dhule">Dhule</option>
+                        </select>-->
+
+                        <input type="submit">
+                        <img src="img/free-text.jpg" alt="Free Text"> 
+                    </div>
+                    <div id="tabs-2">
+							<input name="" type="text" class="search-name">
+                           <!--<select class="search-name">
+                            <option value="Dentist">Dentist</option>
+                            <option value="Pediatrician">Pediatrician</option>
+                            <option value="Gynaecologist">Gynaecologist</option>
+						   </select>-->
+                        <input type="submit">
+                        <img src="img/free-text.jpg" alt="Free Text"> 
+                    </div>
+            		<div id="tabs-3">
+						<input name="" type="text" class="search-name">
+                    	<!--<select class="search-name">
+                            <option value="Dentist">Dentist</option>
+                            <option value="Pediatrician">Pediatrician</option>
+                            <option value="Gynaecologist">Gynaecologist</option>
+                        </select>-->
+                        <input type="submit">
+                        <img src="img/free-text.jpg" alt="Free Text"> 
+            		</div>
+                    </div><!--End tabs container-->
+                </div><!--End tabs-->
+        	</div>        
+        </div>
+    </div>
+    <div id="content">
+    	<div class="container cf">
+            <div class="doctor-pro-display-panel cf">
+            	<div class="two-third margin-bottom-0">
+                	<div class="profile-photo-panel">
+                    	<div class="profile-photo">
+                        	<img src="img/profile-photo.jpg" alt="Doctor Profile Photo">
+                        </div>
+                        <div class="special-services">
+                        	<p class="service-title">
+                            	Also Consults on 
+                            </p>
+                            <ul>
+                            	<li class="tele-consultation">Phone</li>
+                                <li class="expert-appointment">Online</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="profile-description-panel">
+                        <h2>Dr. Ritu Sharma</h2>
+                        <p class="bold-text">Diploma in Otorhinolaryngology</p>
+                        <p>Ear-Nose-Throat (ENT) Specialist</p>
+                        <p>18 years Experience</p>
+                        <p class="bold-text">Pooja Maternity & Nursing Home</p>
+                        <p>Ghatkopar West</p>                        
+                        <ul class="cf">
+                        	<li>
+                            	<a href="img/pofile-light-box-img001.jpg" data-lightbox="profile-biodata">
+                            		<img src="img/pofile-light-box-thumb-img001.jpg" alt="Doctor Photo Biodata">
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="img/pofile-light-box-img002.jpg" data-lightbox="profile-biodata">
+                            		<img src="img/pofile-light-box-thumb-img002.jpg" alt="Doctor Photo Biodata">
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="img/pofile-light-box-img003.jpg" data-lightbox="profile-biodata">
+                            		<img src="img/pofile-light-box-thumb-img003.jpg" alt="Doctor Photo Biodata">
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="img/pofile-light-box-img004.jpg" data-lightbox="profile-biodata">
+                            		<img src="img/pofile-light-box-thumb-img004.jpg" alt="Doctor Photo Biodata">
+                                </a>
+                            </li>
+                            <!--<li>
+                            	<a href="img/pofile-light-box-img005.jpg" data-lightbox="profile-biodata">
+                            		<img src="img/pofile-light-box-thumb-img005.jpg" alt="Doctor Photo Biodata">
+                                </a>
+                            </li>-->
+                        </ul>
+                	</div>
+                </div>    
+                <div class="one-third last margin-bottom-0">
+                	<ul class="profile-work-details">
+                    	<li class="profile-feedback">20 Happy Patients</li>
+                        <li class="profile-fees">100 - 300</li>
+                        <li class="profile-time">
+                        	<ul>
+                            	<li class="bold-text">MON - FRI</li>
+                                <li>10:30AM-12:30PM, 10:30AM-12:30PM</li>
+                                <li class="bold-text">SAT</li>
+                                <li>10:00AM-12:00PM</li>
+                            </ul>
+                        </li>
+						<!--<li class="cf">
+                        	<img src="img/ic_quick_appointment.png" alt="Doctor Quick Appointment">
+                        	<div id="quick-appointment">
+                            	Book<span>Dr</span>Appointment
+                            </div>	
+                        </li>-->
+                       <li class="cf">
+                        	
+                        	<div id="quick-appointment">
+                            	Book<span>Dr</span>Appointment
+                            </div>	
+                        </li>
+
+						<!--<li class="cf">
+                        	
+                        	<div id="quick-appointment">
+                            	<a class="quick-appointment-bt" href="#"><span>Book Dr Appointment</span></a>
+                            </div>		
+                        </li>-->
+
+
+                    </ul>
+                </div>
+                <div class="cf"></div>
+                <div class="select-date-slider"> 
+                    <div id="select-date-slider-owl-demo" class="owl-carousel">
+                        <div class="item">
+                            <div class="select-date-heading">Mon<br>23 Jun</div>
+                            <div class="select-time-panel">
+                                <ul>
+                                    <li>
+                                        <a href="">10:00 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">10:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">11:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">11:30 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:00 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:30 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:45 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">01:00 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">01:35 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">02:45 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:00 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:15 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:45 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">04:30 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">05:00 PM</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="select-date-heading">Mon<br>23 Jun</div>
+                            <div class="select-time-panel">
+                                <ul>
+                                    <li>
+                                        <a href="">10:00 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">10:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">11:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">11:30 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:00 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:30 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:45 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">01:00 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">01:35 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">02:45 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:00 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:15 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:45 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">04:30 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">05:00 PM</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="select-date-heading">Mon<br>23 Jun</div>
+                            <div class="select-time-panel">
+                                <ul>
+                                    <li>
+                                        <a href="">10:00 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">10:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">11:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">11:30 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:00 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:30 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:45 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">01:00 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">01:35 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">02:45 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:00 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:15 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:45 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">04:30 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">05:00 PM</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="select-date-heading">Mon<br>23 Jun</div>
+                            <div class="select-time-panel">
+                                <ul>
+                                    <li>
+                                        <a href="">10:00 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">10:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">11:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">11:30 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:00 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:30 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:45 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">01:00 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">01:35 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">02:45 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:00 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:15 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:45 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">04:30 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">05:00 PM</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="select-date-heading">Mon<br>23 Jun</div>
+                            <div class="select-time-panel">
+                                <ul>
+                                    <li>
+                                        <a href="">10:00 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">10:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">11:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">11:30 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:00 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:30 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:45 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">01:00 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">01:35 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">02:45 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:00 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:15 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:45 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">04:30 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">05:00 PM</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="select-date-heading">Mon<br>23 Jun</div>
+                            <div class="select-time-panel">
+                                <ul>
+                                    <li>
+                                        <a href="">10:00 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">10:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">11:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">11:30 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:00 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:30 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:45 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">01:00 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">01:35 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">02:45 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:00 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:15 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:45 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">04:30 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">05:00 PM</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="select-date-heading">Mon<br>23 Jun</div>
+                            <div class="select-time-panel">
+                                <ul>
+                                    <li>
+                                        <a href="">10:00 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">10:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">11:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">11:30 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:00 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:15 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:30 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">12:45 AM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">01:00 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">01:35 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">02:45 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:00 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:15 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">03:45 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">04:30 PM</a>
+                                    </li>
+                                    <li>
+                                        <a href="">05:00 PM</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dateSliderCustomNavigation">
+                        <a class="btn prev-select-date-slider">Previous</a>
+                        <a class="btn next-select-date-slider">Next</a>
+                    </div>
+                </div>
+            </div>
+            <div class="doctor-pro-display-panel cf">
+            	<div class="two-third margin-bottom-0">
+                	<div class="profile-photo-panel">
+                    	<div class="profile-photo">
+                        	<img src="img/profile-photo.jpg" alt="Doctor Profile Photo">
+                        </div>
+                        <div class="special-services">
+                        	<p class="service-title">
+                            	Also Consults on 
+                            </p>
+                            <ul>
+                            	<li class="tele-consultation">Phone</li>
+                                <li class="expert-appointment">Online</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="profile-description-panel">
+                        <h2>Dr. Ritu Sharma</h2>
+                        <p class="bold-text">Diploma in Otorhinolaryngology (DLO) , MBBS</p>
+                        <p>Ear-Nose-Throat (ENT) Specialist</p>
+                        <p>18 years Experience</p>
+                        <p class="bold-text">Pooja Maternity & Nursing Home</p>
+                        <p>Ghatkopar West</p>                        
+                        <ul class="cf">
+                        	<li>
+                            	<a href="img/pofile-light-box-img001.jpg" data-lightbox="profile-biodata">
+                            		<img src="img/pofile-light-box-thumb-img001.jpg" alt="Doctor Photo Biodata">
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="img/pofile-light-box-img002.jpg" data-lightbox="profile-biodata">
+                            		<img src="img/pofile-light-box-thumb-img002.jpg" alt="Doctor Photo Biodata">
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="img/pofile-light-box-img003.jpg" data-lightbox="profile-biodata">
+                            		<img src="img/pofile-light-box-thumb-img003.jpg" alt="Doctor Photo Biodata">
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="img/pofile-light-box-img004.jpg" data-lightbox="profile-biodata">
+                            		<img src="img/pofile-light-box-thumb-img004.jpg" alt="Doctor Photo Biodata">
+                                </a>
+                            </li>
+                            <!--<li>
+                            	<a href="img/pofile-light-box-img005.jpg" data-lightbox="profile-biodata">
+                            		<img src="img/pofile-light-box-thumb-img005.jpg" alt="Doctor Photo Biodata">
+                                </a>
+                            </li>-->
+                        </ul>
+                	</div>
+                </div>    
+                <div class="one-third last margin-bottom-0">
+                	<ul class="profile-work-details">
+                    	<li class="profile-feedback">20 Happy Patients</li>
+                        <li class="profile-fees">100 - 300</li>
+                        <li class="profile-time">
+                        	<ul>
+                            	<li class="bold-text">MON - FRI</li>
+                                <li>10:30AM-12:30PM, 10:30AM-12:30PM</li>
+                                <li class="bold-text">SAT</li>
+                                <li>10:00AM-12:00PM</li>
+                            </ul>
+                        </li>
+                        <li class="cf">
+                        	
+                        	<div id="phone-appointment">
+                            	Appointment via Phone
+                            </div>
+							
+                        </li>
+
+
+						<!--<li class="cf">
+                        	
+                        	<div id="phone-appointment">
+									<a class="phone-appointment-bt" href="#"><span>Appointment via Phone</span></a>
+                            </div>	
+                        </li>-->
+
+
+                    </ul>
+                </div>
+                <div class="cf"></div>
+                <div class="phone-appointment-panel">
+                    <div class="phone-no-panel">
+                        <p class="phone-no">022 6105 4220</p>
+                        <p>Dial Extension: 204</p>
+                        <div class="phone-icon-panel">
+                        </div>
+                    </div>
+                    <div class="phone-appointment-details">
+                        <p>
+                            In case you are unable to get connected, Please call Bookdrappointment.com Helpline No : 022 49246246 (10 am to 7 pm, Monday to Saturday). Your missed call details will be provided to the Clinic. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="doctor-pro-display-panel cf">
+            	<div class="two-third margin-bottom-0">
+                	<div class="profile-photo-panel">
+                    	<div class="profile-photo">
+                        	<img src="img/profile-photo.jpg" alt="Doctor Profile Photo">
+                        </div>
+                        <div class="special-services">
+                        	<p class="service-title">
+                            	Also Consults on 
+                            </p>
+                            <ul>
+                            	<li class="tele-consultation">Phone</li>
+                                <li class="expert-appointment">Online</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="profile-description-panel">
+                        <h2>Dr. Ritu Sharma</h2>
+                        <p class="bold-text">Diploma in Otorhinolaryngology (DLO) , MBBS</p>
+                        <p>Ear-Nose-Throat (ENT) Specialist</p>
+                        <p>18 years Experience</p>
+                        <p class="bold-text">Pooja Maternity & Nursing Home</p>
+                        <p>Ghatkopar West</p>                        
+                        <ul class="cf">
+                        	<li>
+                            	<a href="img/pofile-light-box-img001.jpg" data-lightbox="profile-biodata">
+                            		<img src="img/pofile-light-box-thumb-img001.jpg" alt="Doctor Photo Biodata">
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="img/pofile-light-box-img002.jpg" data-lightbox="profile-biodata">
+                            		<img src="img/pofile-light-box-thumb-img002.jpg" alt="Doctor Photo Biodata">
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="img/pofile-light-box-img003.jpg" data-lightbox="profile-biodata">
+                            		<img src="img/pofile-light-box-thumb-img003.jpg" alt="Doctor Photo Biodata">
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="img/pofile-light-box-img004.jpg" data-lightbox="profile-biodata">
+                            		<img src="img/pofile-light-box-thumb-img004.jpg" alt="Doctor Photo Biodata">
+                                </a>
+                            </li>
+                            <!--<li>
+                            	<a href="img/pofile-light-box-img005.jpg" data-lightbox="profile-biodata">
+                            		<img src="img/pofile-light-box-thumb-img005.jpg" alt="Doctor Photo Biodata">
+                                </a>
+                            </li>-->
+                        </ul>
+                	</div>
+                </div>    
+                <div class="one-third last margin-bottom-0">
+                	<ul class="profile-work-details">
+                    	<li class="profile-feedback">20 Happy Patients</li>
+                        <li class="profile-fees">100 - 300</li>
+                        <li class="profile-time">
+                        	<ul>
+                            	<li class="bold-text">MON - FRI</li>
+                                <li>10:30AM-12:30PM, 10:30AM-12:30PM</li>
+                                <li class="bold-text">SAT</li>
+                                <li>10:00AM-12:00PM</li>
+                            </ul>
+                        </li>
+                        <!--<li class="cf">
+                        	<img src="img/ic_quick_appointment.png" alt="Doctor Quick Appointment">
+                        	<div id="quick-appointment">
+                            	Book<span>Dr</span>Appointment
+                            </div>	
+                        </li>-->
+
+						<li class="cf">
+                        	
+                        	<div id="quick-appointment">
+                            	Book Dr Appointment
+                            </div>	
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="cf"></div>
+            </div>
+
+
+			 <div class="doctor-pro-pagination cf"><!--doctor-pro-pagination Start-->
+
+				
+<ul class="tsc_pagination tsc_paginationC tsc_paginationC05"> <!--pagination Start-->
+                            
+                              <li><a href="#" class="first">First</a></li>
+                              <li><a href="#" class="previous">Previous</a></li>
+                              <li><a href="#">1</a></li>
+                              <li><a href="#">2</a></li>
+                              <li><a href="#" class="current">3</a></li>
+                              <li><a href="#">4</a></li>
+                              <li><a href="#">5</a></li>
+                              <li><a href="#" class="next">Next</a></li>
+                              <li><a href="#" class="last">Last</a></li>
+                          </ul><!--pagination End-->
+
+
+			 </div><!--doctor-pro-pagination End-->
+        </div>
+    </div>
+    <div id="footer">
+    	<div class="container cf">
+        	<ul class="one-fourth">
+            	<h4>BDA</h4>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Patient FAQ</a></li>
+                <li><a href="#">Doctor FAQ</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Term and Conditions</a></li>
+            </ul>
+            <ul class="one-fourth">
+            	<h4>Find Doctor By</h4>
+                <li><a href="#">Speciality</a></li>
+                <li><a href="#">Doctor Name</a></li>
+                <li><a href="#">Clinic / Hospital Name</a></li>
+            </ul>
+            <ul class="one-fourth">
+            	<h4>Get in Touch</h4>
+                <li>022 - 25361097</li>
+                <li><a href="mailto:support@bookdrappointment.com" target="_top">support@bookdrappointment.com</li>
+            </ul>
+            <ul class="one-fourth last follow-us">
+            	<h4>Follow Us</h4>
+                <a href="#"><img src="img/ic_footer_social.png" alt="Facebook Icon"></a>
+                <a href="#"><img src="img/ic_footer_googlePlus.png" alt="GooglePlus Icon"></a>
+               	<a href="#"><img src="img/ic_footer_twitter.png" alt="Twitter Icon"></a>
+                <a href="#"><img src="img/ic_footer_linkedin.png"  alt="Linkedin Icon"></a>
+                <a href="#"><img src="img/ic_footer_pinrest.png" alt="Pinrest Icon"></a>
+                <a href="#"><img src="img/ic_footer_youtube.png" alt="Youtube Icon"></a>
+            </ul>
+        </div>
+        <div class="bottom-footer">
+        	&copy; 2015 BookdrAppointment.com, 	All rights reserved.
+        </div>
+        				
+        
+    </div>    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+	<script src="js/modernizr.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+	<script src="js/owl.carousel.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script type="text/javascript">
+		var owl2 = $("#select-date-slider-owl-demo");
+
+		  owl2.owlCarousel({
+	
+		  items : 3, //10 items above 1000px browser width
+		  itemsDesktop : [1000,3], //5 items between 1000px and 901px
+		  itemsDesktopSmall : [900,2], // 3 items betweem 900px and 601px
+		  itemsTablet: [600,2], //2 items between 600 and 0;
+		  itemsMobile : [480,1], // itemsMobile disabled - inherit from itemsTablet option
+		  slideSpeed: 1000,
+		  autoPlay: false
+		  });
+	
+		  // Custom Navigation Events
+		  $(".next-select-date-slider").click(function(){
+			owl2.trigger('owl.next');
+		  })
+		  $(".prev-select-date-slider").click(function(){
+			owl2.trigger('owl.prev');
+		 })
+		 $(function() {
+			$( "#tabs" ).tabs();
+		  });
+	  		$(document).ready(function(){
+			$('#menu').slicknav();
+		});
+		
+    /*    function toggleDiv("#quick-appointment") {
+           $("#quick-appointment"+divId).toggle();
+        }
+       */
+		
+		$("#phone-appointment").click(function(){
+			$(".phone-appointment-panel").toggle(500);
+		});
+		
+		$("#quick-appointment").click(function(){
+			$(".select-date-slider").toggle(500);
+		});
+		/*$(document).ready(function(){
+			$("#quick-appointment").click(function(){
+				$(".phone-appointment-panel").toggle();
+			});
+		});*/
+		
+		
+	</script>
+   
+   
+</body>
+</html>

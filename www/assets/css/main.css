@@ -1,0 +1,10 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+link  a:visited {
+	color: #F35E3F;
+}
+link  a:hover {
+	color: #0000FF;
+}

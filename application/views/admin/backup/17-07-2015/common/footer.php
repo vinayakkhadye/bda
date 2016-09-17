@@ -1,0 +1,1 @@
+&copy; <?=date("Y")?> BookdrAppointment.com , All rights reserved
